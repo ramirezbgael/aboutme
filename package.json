@@ -1,0 +1,24 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "A quick practice of the first HTTP verbs (GET, POST, DELETE, PUT, PATCH)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTPP",
+    "verbs",
+    "express"
+  ],
+  "author": "ramirezbgael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
